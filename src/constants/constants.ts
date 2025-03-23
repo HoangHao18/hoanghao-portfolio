@@ -58,3 +58,5 @@ export const projectList: TProject[] = [
     }
    
 ]
+
+export const resumeLink = `${import.meta.env.BASE_URL}/HoangThiHao-Resume.pdf`
