@@ -45,7 +45,7 @@ export const projectList: TProject[] = [
         techs: ["ReactJS"],
         linkDemo: "#",
         linkSource: "https://github.com/HoangHao18/ferfume-shop-web",
-        image: "/images/projects/1.jpg"
+        image: `${import.meta.env.BASE_URL}/images/projects/1.jpg`
     },
     {
         id: "122",
@@ -54,7 +54,7 @@ export const projectList: TProject[] = [
         techs: ["React", "Node.js", "AWS", "Docker"],
         linkDemo: "#",
         linkSource: "https://github.com/HoangHao18/ferfume-shop-web",
-        image: "/images/projects/2.jpg"
+        image: `${import.meta.env.BASE_URL}/images/projects/2.jpg`
     }
    
 ]
