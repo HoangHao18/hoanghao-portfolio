@@ -1,0 +1,1 @@
+export type TProject = {id: string, name: string, desc: string, image: string,techs: string[], linkDemo: string, linkSource: string }
