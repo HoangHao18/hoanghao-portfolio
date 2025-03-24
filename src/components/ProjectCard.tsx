@@ -9,7 +9,7 @@ export const ProjectCard = ({project}: TProjectCardProps) => {
         <div key={project.id} 
         className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
 
-            <div className="h-52 md:h-72 rounded-t-xl relative group bg-cover bg-center"
+            <div className="h-52 md:h-72 rounded-t-xl relative group bg-cover bg-left-top"
                 style={{backgroundImage: `url(${project.image})`}}
             >
                 {/* <div className="absolute top-0 left-0 w-full h-full bg-[#181818] opacity-0 hidden group-hover:flex group-hover:opacity-80 transition-all duration-500"></div> */}
@@ -28,8 +28,8 @@ export const ProjectCard = ({project}: TProjectCardProps) => {
                 }
             </div>
             <div className="flex justify-between items-center">             
-                <a href={project.linkSource} className="border boder-blue-500/50 text-blue-500 py-2 px-6 rounded-full font-medium transition-all duration-200  hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10 hover:text-blue-300">Source</a>
-                <a href={project.linkDemo} className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project →</a>
+                <a href={project.linkSource} target="_blank" rel="noopener noreferrer" className="border boder-blue-500/50 text-blue-500 py-2 px-6 rounded-full font-medium transition-all duration-200  hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10 hover:text-blue-300">Source</a>
+                <a href={project.linkDemo} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project →</a>
             </div>
         </div>
     )

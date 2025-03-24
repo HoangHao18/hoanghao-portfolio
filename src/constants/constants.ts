@@ -41,20 +41,20 @@ export const projectList: TProject[] = [
     {
         id: "121",
         name: "PerfumeStore WEB",
-        desc: "Scalable cloud infrastructure management with ral-time monitoring and automated scaling",
-        techs: ["ReactJS"],
-        linkDemo: "#",
-        linkSource: "https://github.com/HoangHao18/ferfume-shop-web",
-        image: `${import.meta.env.BASE_URL}/images/projects/1.jpg`
+        desc: "UI design for a perfume store web application, built with React",
+        techs: ["ReactJS", "SCSS"],
+        linkDemo: "https://hoanghao18.github.io/DC-UI-PerfumeShop/",
+        linkSource: "https://github.com/HoangHao18/DC-UI-PerfumeShop",
+        image: `${import.meta.env.BASE_URL}/images/projects//UI-PerfumeShop-2.png`
     },
     {
         id: "122",
-        name: "Cloud Platform",
-        desc: "Scalable cloud infrastructure management with ral-time monitoring and automated scaling",
-        techs: ["React", "Node.js", "AWS", "Docker"],
-        linkDemo: "#",
-        linkSource: "https://github.com/HoangHao18/ferfume-shop-web",
-        image: `${import.meta.env.BASE_URL}/images/projects/2.jpg`
+        name: "PerfumeStore WEB",
+        desc: "UI design for a perfume store web application, built with React",
+        techs: ["ReactJS", "SCSS"],
+        linkDemo: "https://hoanghao18.github.io/DC-UI-PerfumeShop/",
+        linkSource: "https://github.com/HoangHao18/DC-UI-PerfumeShop",
+        image: `${import.meta.env.BASE_URL}/images/projects/UI-PerfumeShop.png`
     }
    
 ]
